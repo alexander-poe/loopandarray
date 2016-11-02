@@ -1,15 +1,18 @@
 function average(numbers) {
-  var total = function(arr){
+  return total(numbers) / count(numbers)
+}
+  var total = function(numbers){
   var sum = 0;
   for (i = 0; i < numbers.length; i++) {
   sum += numbers[i];
   }
+return sum;
 }
-   var count = function(arr2){
+   var count = function(numbers){
    return numbers.length;
  }
-   return total / count;
-}
+
+
 
 // tests
 

@@ -1,25 +1,26 @@
 function mergeDataStreams(stream1, stream2) {
   // Strategy:
   // Create a new array.
-  // Create multiple new objects to hold the merged props.
-  // Copy the keys and values of each Stream 1 object to new objects.
+  // Create a new object to hold the merged props.
+  // Copy the keys and values of each Stream 1 object to new object.
   // For Stream 2, if the ID is the same then copy the k/v too.
-  // Add the new objects to the new array.
+  // Add the new object to the new array.
 }
 
 function mergeDataStreams(stream1, stream2) {
     //what we're solving for
     var contactInfo = {};
     //setting up the loop for stream1
-    for (i = 0; i<=stream1.length; i++) {
+    for (i = 0; i<stream1.length; i++) {
     //copy the array for stream 1 into contactInfo
-    
+    contactInfo[i][stream1];
     } 
+    console.log(contactInfo);
     for (i = 0; i<=stream2.length; i++) {
     //copy the array for stream 2 into contactInfo
-    
+    stream2.find(id)
     }   
-  
+  //Object.keys(contactInfo).map(function(item) {return contactInfo[item]; });
     var info = Object.keys(contactInfo[0]);
     for (info in ) {
 }
